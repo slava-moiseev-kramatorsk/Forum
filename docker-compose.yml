@@ -1,0 +1,68 @@
+version: "3"
+
+networks:
+  work:
+
+services:
+  nginx:
+    image: nginx:1.21.0-alpine
+    container_name: nginx-work
+    environment:
+      TZ: Europe/Kiev
+    ports:
+      - "80:80" #Если ругается что какой-то порт занят попробуйте сменить первую 80 на что-то другое, допустим на - "83:80"
+      - "443:443" #Если ругается что какой-то порт занят попробуйте сменить первую 443 на что-то другое, допустим на - "444:443"
+    volumes:
+      - ./src:/var/www/src
+      - ./nginx/logs:/var/log/nginx #логи будут "синхронизироватся" в эту папку (nginx/logs)
+      - ./nginx/conf/default.conf:/etc/nginx/conf.d/default.conf #пробрасываем конфиг в нужную папку
+    networks:
+      - work
+
+  php:
+    build:
+      context: ./php-fpm
+      dockerfile: Dockerfile
+    container_name: php-work
+    environment:
+      TZ: Europe/Kiev
+    volumes:
+      - ./src:/var/www/src
+    networks:
+      - work
+
+  mysql:
+    image: mysql:5.7.29
+    container_name: mysql-work
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3307:3306"
+    volumes:
+        - ./mysql:/var/lib/mysql
+    environment:
+      TZ: Europe/Kiev
+      MYSQL_DATABASE: palmo
+      MYSQL_USER: palmo
+      MYSQL_PASSWORD: palmo
+      MYSQL_ROOT_PASSWORD: palmo
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    networks:
+      - work
+
+  artisan:
+    build:
+      context: ./php-cli
+      dockerfile: Dockerfile
+    container_name: artisan-work
+    environment:
+      TZ: Europe/Kiev
+    volumes:
+      - ./src:/var/www/src
+    depends_on:
+      - mysql
+    working_dir: /var/www/src
+    entrypoint: ["php", "/var/www/src/artisan"]
+    networks:
+      - work
