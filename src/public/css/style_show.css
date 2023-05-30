@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+}
+.title{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.content{
+    font-size: 20px;
+    margin: 10px;
+    font-family: Apple, sans-serif;
+}
+.comment{
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    /*width: -moz-min-content;*/
+    border: 0.1px solid black;
+    border-radius: 5px;
+}
+.form_delete{
+    margin: 10px;
+}
+.redaction {
+    margin: 10px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.add_comment{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.author_theme{
+    text-align: end;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+.comments{
+    margin-top: 20px;
+}
+.reply_invisible{
+    display: none;
+}
+.reply_show{
+    display: flex;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}

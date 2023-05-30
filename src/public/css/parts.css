@@ -1,0 +1,30 @@
+.header_parts{
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+    height: 90px;
+    align-items: center;
+}
+.paragraph_header{
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.table_part{
+    text-align: center;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+    font-size: 20px;
+}
+.table_a{
+    text-decoration: none;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+    font-size: 20px;
+}
+.table_th{
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+}
+.hello_user{
+    color: black;
+}
+.hello_admin{
+    color: black;
+    margin-bottom: 15px;
+}
+.on_main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:black;
+}
+.line3{
+    background-color: deepskyblue;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.text_menu2{
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.line3 > div{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+.line3 > div > ul {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.authorisation{
+    margin: 20px;
+}
+.text_login{
+    font-size: 18px;
+    color: white;
+}
+.text_label{
+    font-size: 18px;
+    color: darkseagreen;
+}
+.container{
+    margin-top: 15px;
+    width: 100%;
+}
+.title_column{
+    display: flex;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.title_number{
+    width: 5%;
+    text-align: center;
+    color: black;
+}
+.title_name{
+    padding-left: 15px;
+    width: 75%;
+    text-align: left;
+    color: black;
+}
+.title_view{
+    width: 10%;
+    text-align: center;
+    color: black;
+}
+.line1{
+    margin-bottom: 5px;
+    display: flex;
+    height: 30px;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+
+}
+.number_theme{
+    width: 5%;
+    text-align: center;
+    color: black;
+    border: 0.1px solid black;
+
+}
+.name_theme{
+    padding-left: 15px;
+    width: 75%;
+    text-align: left;
+    color: black;
+    border: 0.1px solid black;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+
+}
+.view_theme{
+    width: 10%;
+    text-align: center;
+    color: black;
+    border: 0.1px solid black;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+}
+.comments_theme{
+    width: 10%;
+    text-align: center;
+    color: black;
+    border: 0.1px solid black;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+}
+.href_theme{
+    text-decoration: none;
+    color: black;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+
+}
+
+
+
+
+
+

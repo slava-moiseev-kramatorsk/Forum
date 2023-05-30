@@ -1,0 +1,65 @@
+.header{
+    padding: 20px;
+    width: 100%;
+    height: 90px;
+    background-color: deepskyblue;
+}
+.header > ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.headerLi{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+}
+.create-form{
+    height: auto;
+    width: 300px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form-control{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    height: 90px;
+    background-color: deepskyblue;
+}
+.motto{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+}
+.lin{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+}
+.back{
+    display: flex;
+    justify-content: end;
+}
+.back1{
+    margin: 20px;
+    text-decoration: none;
+    color: deepskyblue;
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+    font-size: 30px;
+
+}
+.tabl{
+    font-family: BwModelicaCyrillicDEMO-Regular, serif;
+}

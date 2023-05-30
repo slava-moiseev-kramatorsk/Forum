@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeeb105f-f899-4620-bb61-78a6968f6a86" name="Changes" comment="Initial commith">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eeeb105f-f899-4620-bb61-78a6968f6a86" name="Changes" comment=" commith2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,11 +37,16 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="9efe22fd-a3fc-4a32-b65a-696ffeaac72d" />
-        <option name="url" value="https://github.com/slava-moiseev-kramatorsk/Project" />
+        <option name="accountId" value="99d97e61-9fe2-4739-852d-5a4dbaaa7d6b" />
+        <option name="url" value="https://github.com/slava-moiseev-kramatorsk/Forum.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -335,7 +338,7 @@
       <workItem from="1683011038449" duration="8154000" />
       <workItem from="1683043059896" duration="5013000" />
       <workItem from="1683537183781" duration="4906000" />
-      <workItem from="1684952101893" duration="2737000" />
+      <workItem from="1684952101893" duration="3110000" />
     </task>
     <task id="LOCAL-00001" summary="forum">
       <created>1644525907405</created>
@@ -407,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684952544701</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial commith1">
+      <created>1684955404322</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684955404322</updated>
+    </task>
+    <task id="LOCAL-00012" summary=" commith2">
+      <created>1684955577222</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684955577222</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +449,8 @@
     <MESSAGE value="For" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial commith" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commith" />
+    <MESSAGE value="Initial commith1" />
+    <MESSAGE value=" commith2" />
+    <option name="LAST_COMMIT_MESSAGE" value=" commith2" />
   </component>
 </project>
